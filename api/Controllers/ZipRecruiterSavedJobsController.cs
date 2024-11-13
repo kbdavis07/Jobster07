@@ -17,6 +17,13 @@ public class ZipRecruiterSavedJobsController : ControllerBase
         this.context = context;
     }
 
+    [HttpGet]
+    public async Task<ActionResult<IEnumerable<Job>>> GetAllJobs()
+    {
+        var jobs = await context.Jobs.Include(j => j.Company).Include(j => j.Location).ToListAsync();
+        return Ok(jobs);
+    }
+
     [HttpPost("bulk")]
     public async Task<ActionResult> PostBulkJobs([FromBody] BulkJobsRequest request)
     {

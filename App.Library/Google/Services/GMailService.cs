@@ -6,6 +6,9 @@ using Google.Apis.Gmail.v1.Data;
 using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using Microsoft.Extensions.Configuration;
+using MimeKit;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace App.Library.Google.Services;
 
@@ -50,7 +53,7 @@ public class GMailService(IConfiguration config) : IGMailService
         
         UsersResource.MessagesResource.ListRequest request = service.Users.Messages.List("me");
 
-        request.LabelIds = "Label_JobSearch2024";
+        request.LabelIds = "Label_3128620828543033678";
 
         IList<Message> messages = request.Execute().Messages;
 
@@ -62,9 +65,33 @@ public class GMailService(IConfiguration config) : IGMailService
             foreach (var messageItem in messages)
             {
                 var message = service.Users.Messages.Get("me", messageItem.Id).Execute();
-                Console.WriteLine($"- {message.Snippet}");
 
-                report.Add($"- {message.Snippet}");
+                // Request the raw format of the message
+                var rawMessage = service.Users.Messages.Get("me", messageItem.Id);
+
+                rawMessage.Format = UsersResource.MessagesResource.GetRequest.FormatEnum.Raw;
+                
+                var rawMessageResult = rawMessage.Execute();
+
+                var rawMessageData = rawMessageResult.Raw;
+
+                // Replace URL-safe characters with standard base64 characters
+                rawMessageData = rawMessageData.Replace('-', '+').Replace('_', '/');
+
+                // Pad the string with '=' characters to make its length a multiple of 4
+                switch (rawMessageData.Length % 4)
+                {
+                    case 2: rawMessageData += "=="; break;
+                    case 3: rawMessageData += "="; break;
+                }
+
+                var decodedBytes = Convert.FromBase64String(rawMessageData);
+
+                var email = MimeMessage.Load(new MemoryStream(decodedBytes));
+
+                var emailData = JsonConvert.SerializeObject(message);
+
+                report.Add(emailData);
             }
         }
         else

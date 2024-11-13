@@ -5,7 +5,7 @@ namespace App.Library.Google.Services.Tests
     public class GMailServiceTests
     {
         [Fact()]
-        public void MainTest()
+        public async Task MainTest()
         {
             // Create a configuration builder
             var configurationBuilder = new ConfigurationBuilder();
@@ -22,7 +22,7 @@ namespace App.Library.Google.Services.Tests
             // Pass the configuration to the GMailService
             var mailService = new GMailService(config);
 
-            var result = mailService.GetMail();
+            var result = await mailService.GetMail();
 
             // Assert.Fail to indicate the test needs implementation
             // Assert.Fail("This test needs an implementation");

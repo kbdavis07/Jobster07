@@ -1,0 +1,224 @@
+{
+  "jobs": [
+    {
+      "id": "XpPUKVvby4o-mbNA4mg4wQ",
+      "name": "Mid-Level Software Developer",
+      "company": {
+        "id": "2HhifEEvt7XNw8pfsHp9KJhZ36M=",
+        "name": "2020",
+        "logo": "https://www.ziprecruiter.com/svc/fotomat/public-nosensitive-ziprecruiter-logos/company/1354a9c2.png",
+        "url": "/c/2020/Jobs"
+      },
+      "location": {
+        "text": "Austin, TX USA"
+      },
+      "type": "FULL_TIME",
+      "benefits": [
+        "vision",
+        "medical",
+        "dental",
+        "paid_time_off",
+        "retirement"
+      ],
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAJtssd9JsKmJmbsdwcl8crKV5Gh9Ta9FLzrrvwykL0U8i7lqQFuxj0gg-2nRwTvCrHYInMH9twnQWV-e9Gjr0inayDUykMNV77JTyA4k_H3YpIKSMmcph08y3x4ZBSCi57sCliAJFm_4XXja7dNcgr3q4av4K0ZHjBx0jzY2RJSgscBsaCXKBdopxUtxNcTb-NdTXTslwRHH485UNFHqo_fglg88P2JI2RXCBRYXFUfN1IKCXW5jXN9bWY01VTMtOObtAj6G9LZiV6eWsY4TJKshDnEw8IRkqmEa2mqcmOar-4sbCaZjXxjYFuHa8zGxc-vdpDhQcU9G6w"
+    },
+    {
+      "id": "NmRpImMnSPJtYjbIzFmMOA",
+      "name": "C#/.NET Developer",
+      "company": {
+        "id": "PQoMuWQd5OB1j6GeYCy1ckdP3nM=",
+        "name": "Tech Tammina",
+        "logo": "https://www.ziprecruiter.com/svc/fotomat/public-nosensitive-ziprecruiter-logos/company/1f55f4bc.png",
+        "url": "/c/Tech-Tammina/Jobs"
+      },
+      "location": {
+        "text": "Remote (USA)",
+        "type": "REMOTE"
+      },
+      "type": "FULL_TIME",
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAI9ezzb7jh8OFUBBX9m7pp8OQG0P_hUnV8fgGryfAT8oE4Wkqn325DzHMahyzO3AyR0utUc_pxa3DT7sadBHYPBxGyjWvk-WOQQn4l9KpeWzk2S033D9gUEK086OfQnNZ--bCs9gfC468PkfMzEvvhZO4CJlkz-AtNKVuOPLlsVx7hdzY98Hbvbko-RENDpfppYjr3niS8KiSpkrT3gpGQF5QVOMQ-j_1HxP98SH1FIexUdOIHF7BDMUP0y0NhFOfjTZggU95lp_KXhXHcz8u8h1T_oWraB7x1c6zX82PNnh4XzM8a1MQ47hSDyrXIYxqzXJcWDj9T-irY"
+    },
+    {
+      "id": "kCpWaltBDUsdUFcOvCD6mA",
+      "name": "Software Engineer C#",
+      "company": {
+        "id": "Xe4x7/KLu+V7IyTND4QOLSzZwjE=",
+        "name": "Neptune Technology Group",
+        "logo": "https://www.ziprecruiter.com/svc/fotomat/public-nosensitive-ziprecruiter-logos/company/5ca6dd79.png",
+        "url": "/c/Neptune-Technology-Group/Jobs"
+      },
+      "location": {
+        "text": "Duluth, GA USA  30096",
+        "type": "REMOTE"
+      },
+      "type": "FULL_TIME",
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AALu6CUuBwn3Bj-qJaAfPOA6kXL3ffrTCrPRtVmQQlT-ZbH3C4LJhzTOqS6R-YIhZHldzvrbrBSWgiuFAZGYUHvkPJKiUqnOxRvex58ybBVCZiHi3UEEUguaiu08SIk62trqnjq4rbLVwNFzr0Sad4l7um00EuMbDvp4Bu3_rvmcJodJH2cG0u-jW82V6OPO06f89AmS44HUdICotfxptZuDi7HCbY70zh7WkaaKhL6cU-JYmwn2hz4s6jbXehb7UKM1vxfYBduF1Zo5Fxgqy7auMn7Cl7fiK-Kmeb_69cTpR2QkiDr-W36NPQV7BOto80d5lBvUqJr0OvE"
+    },
+    {
+      "id": "2iaXraeG42LRZa5H6X4IdA",
+      "name": "Senior C# Developer",
+      "company": {
+        "id": "uv7ZeY6wUUqzPm1xBP9aYgH1/aw=",
+        "name": "Dayton Freight",
+        "logo": "https://www.ziprecruiter.com/svc/fotomat/public-nosensitive-ziprecruiter-logos/company/26c19401.png",
+        "url": "/c/Dayton-Freight/Jobs"
+      },
+      "location": {
+        "text": "Dayton, OH USA  45414"
+      },
+      "type": "FULL_TIME",
+      "benefits": [
+        "vision",
+        "medical",
+        "dental",
+        "paid_time_off",
+        "life_insurance",
+        "retirement"
+      ],
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAJPiMIl2FGUeG0VlUgTgxX0mhzzB-cnWIcYkc_p7ZmV3sqyTKrXXijdeAL0eI-MEXYTQ_BTxwj3uKO2sw7Ou2a6Hi59VJJWlJMCR6bXoTf1NvUKfKsHeFFUkBhMfPXPjtuwti9JwCWy6S_YaeT14hmuSrC_rw7yga1EF5gi6UWiJuT2jK-p6ilFv9FvLhTcq6-xVdum-vPnUHanf00tsP9cJvsoglfYmeA7FIks8t9ga2N4uEyROIIOaQz0DBKquCCSdjzG-jLzqcJNspF2IuE2QDP5262gAPvZxzsbOnW-hN2AsapxBJTjwRt80w73c4CkDum8k1fTNi0"
+    },
+    {
+      "id": "hnq_E9GSrouLQ3W8OGb4vg",
+      "name": "Senior Software Engineer (C# and .NET) - Contract",
+      "company": {
+        "id": "M2tWsCB/4dte88ciht3ZOKSahr8=",
+        "name": "Emergent Software",
+        "logo": "https://www.ziprecruiter.com/svc/fotomat/public-nosensitive-ziprecruiter-logos/company/c0ad6561.png",
+        "url": "/c/Emergent-Software/Jobs"
+      },
+      "location": {
+        "text": "Tampa, FL USA"
+      },
+      "type": "CONTRACT",
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAK-kJHQfmVcWjkQReFKuH712PTp2vY-7RexvXLzqaPkaqBk12MSt2lkF1wzh-x59VBZn7An-l1Oeg3hYYV_2R-cFUaeqT2VfchOKVH_BqinQylK_Q2zIJ23XZmbJ5P1AbQoxVmYO3cnRysORuYvZYsgfw06DRAm49rc0QgYeJLTaCxhxed19ib8LtPAvx0FEPKuW0jiWkunGawTqTOWWZMYLFaO5KvmA4e24QPLY3xsZyACMjYdFqcwUCF_wMui-wzP7col-BfAJPxcYV5xeMcHpy8od4UX41VVvcIdMVyaHLuIQZq58ujIHyg0O32jKG7q9RnvZCbOHGQ"
+    },
+    {
+      "id": "_W6A4H8m1NASSMinsoy3pQ",
+      "name": "Sr Software Engineer - .Net C#",
+      "company": {
+        "id": "JWa4Wia+PI3tw168Tjrl970GN6w=",
+        "name": "PAR",
+        "logo": "https://www.ziprecruiter.com/svc/fotomat/public-nosensitive-ziprecruiter-logos/company/ef2ddf91.png",
+        "url": "/c/Par/Jobs"
+      },
+      "location": {
+        "text": "Remote (USA)",
+        "type": "REMOTE"
+      },
+      "type": "FULL_TIME",
+      "benefits": [
+        "medical",
+        "paid_time_off",
+        "retirement"
+      ],
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAIJq8FW0Eh3HjyABkLLw859XgmTL8_RpoFkd3n8rYJUky0ElNkkb7PQUJdtHPLI6c65LKF8CtfPARio29XKcCO0bx5LkMRFwoMATzk2r3mPFaOPzHFzlQaGCaORK32TkGmuagWC9DOct_t0PHFqGsg7L7547vBMgKsNlNxUbnpEStKQQwEpCI9_NgoKVhfcaQmp8ik3ALZSj6UM2j6b9VYalS5C3yGyCG3nw1ELcLyxcCryNQYxwbbD5QAtp75iZC8rXMSuZ32bWhkSF7dfdKDiNfIwwF5-nb7m4HRbxTkT76fNBsTfBA4Oom3KbWAxUFvvrQSZw9xfNqM"
+    },
+    {
+      "id": "Cz18bKRKUGTozaI6YmOpPg",
+      "name": "Full-Stack C# Developer (Remote)",
+      "company": {
+        "id": "zr_missing_company_default",
+        "name": "Novel Engineering",
+        "url": "/c/Novel-Engineering/Jobs"
+      },
+      "location": {
+        "text": "Melbourne, FL USA"
+      },
+      "type": "FULL_TIME",
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAJu8u1ZuLcRyB7Keboy8MKiab__OhpmONAACW02g7r40ujG_ZHK63YVg5V3B3aOE4srZfb-2XBLib6bIC7Hq1MxmtK96tOvz9dVlBwCQowAlKzn75-ce9VmKdWn2_AikOHQ3ZAItTyPzAMR8RxZ_BwMVha3Pjp_WgcTuTqanXNvqZeChwK1BHigpTsAHD_9L3WlFG0RMaUqHnu2H_VpDF3biSSbrE2wTZbc1kuI5_85LGVe-XfBRIM4KCIBObZyDUxJXyrT5pW4KYVgOIKVDZUlTfccS2O2O1QE1dXJH2XWQRC-cHLdWk700QTSmYXIObkWmCjLTKYh8N0"
+    },
+    {
+      "id": "Yc8e00fy8jLKfSV9d_hcJg",
+      "name": "C# ASP.net Developer",
+      "company": {
+        "id": "itaZnliuWuXaxIGYJh1pb0kS5zA=",
+        "name": "betterhire",
+        "url": "/c/betterhire/Jobs"
+      },
+      "location": {
+        "text": "Birmingham, AL USA",
+        "type": "REMOTE"
+      },
+      "type": "FULL_TIME",
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AALVyg_krcn6kTCfsThHs2NanAMvdbmRdbGewjYVseRnIXBRh_qg5Kmb1QxX0TcK8DZROL9JqfaCdpPgJSYE-RgzsPx5vU-EHw6Y1gODTAVPnLU1urje9ENqq-5GCpg5V8d9od-YcCSJGE46LZ-2S0Eug1G_epeVHAHriQ0zjACA8lqVc07IAlJQLdgPhKKsL_jRjn8gJW8FgOao44OCTEoE6roq-9wrTvHQY1BR4nEK2v3YT0mDRCFdcXf1jgMUYMTqbyNK0BE7TW48p1oMRcOfe57Ewjb-DmqjnBOX1yASkJNv97WgayYVVfWzI9libs1Hc_-zIDl3Z0U"
+    },
+    {
+      "id": "bo1ejEk6y4lAUo4_YOe8Rw",
+      "name": "Full Stack C# Developer",
+      "company": {
+        "id": "4R8/cmmG+kvcexdmv/eREcFVlsU=",
+        "name": "Velocity Search Group",
+        "url": "/c/Velocity-Search-Group/Jobs"
+      },
+      "location": {
+        "text": "New Rochelle, NY USA  10801",
+        "type": "REMOTE"
+      },
+      "type": "FULL_TIME",
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAJ1V5eaBq6ZLWlKb6XbFzRnyFDAtE8TPWNPgLO84yMAY0Dc7YcaYeh2qYj6uGBa85-QMrJZGRn9dZjERqQw0BfTnhJgIvOgrQyrvyA10R2gp8aJrxKi2P9l9VGevVzYsjbXNU5p1wMK2zXEw5HlJeaeZl9wZMrNv8pEzMyNTIwcFkC58Laat6kKQInRVr9w0hN5TZqqlQ2mFYcGUMoaLzoqxD4zsuiQcuFYmVBHUPPCIIT-rYkvvKMv6sg03yhl71cB8j-j2g_829RimmFFWAFYM28vH_tenbN1EeHrqca0fswDhdnyMSfRZZ3nfG2bP70iyD3FEiSxTXk"
+    },
+    {
+      "id": "PJiM_FDub7ZiuDOLlG3S5Q",
+      "name": "REMOTE C# Developer, for Award-Winning Music Software. This job is awesome.",
+      "company": {
+        "id": "sLL6Q/4Wh2qx7VVOo4oGOj6Lcj4=",
+        "name": "Mixed In Key",
+        "url": "/c/Mixed-In-Key/Jobs"
+      },
+      "location": {
+        "text": "Miami, FL USA  33132"
+      },
+      "type": "FULL_TIME",
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAKlQm0BJiFHKFrufdc0rIfER9ez-ESGaAly9eyoSDe-NpMLaD0JGkev8fi0Q7eycOplI1IDOu5PcjMgNNaypFFo5_VcOCCk_C5HpBDXVl3OJxS5j-N7B17j4pKxfIQYmdaSWf-hrRHG9nWmwHujQuBpmDe2hB41T7civ91tscNalbNxA0QouONCymNabyCAmB55GUVIxGwO3URsTijMNI7NlmXyZlyWk1FVGZ_KW4WWWRRE86OzyVWoxdP48ZAtCiiVQQ87YmhwYDr7x3Xq5lKG0N95g7zUnzDEkcnrSpNjupOXkdD2w9XDNC5iPIIlOHyI0wJiIpOdvY0"
+    },
+    {
+      "id": "dadgBDTuHKV0hd2zywSF1w",
+      "name": "Senior Software Developer (C#, .NET, AWS Cloud)",
+      "company": {
+        "id": "Fj0dfNFdnG/BH3MQW6nXBTsB09I=",
+        "name": "Pantheon Data",
+        "url": "/c/Pantheon-Data/Jobs"
+      },
+      "location": {
+        "text": "Matthews, NC USA  28105"
+      },
+      "type": "FULL_TIME",
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAJk4c0EAF05f2ox4uGp_5R6aOQUx6ZDI1F3Qvxj9TBEC-joqmeVijv0wIabEdQ9cgpjaxoBg-kR3Nqt8ibUoGaNrU4Jp2DSPCKEOrle0efmxh_DiHbhLbOjPwA4F7GQqKPLtTpxNaG3hTSW9iEkPUdGbfa3PW1W-GE5XmKyM-yBPzdCMPcuVmqqrOMdSWkOluWuBbC9M0mpcZu5Zq7Zn74QdxoqIHNOqKKn1F0OACItL0ki7Bhe58FHP7bz7ZwKSx6TbxIer-W8kKGmE3-guMoyhoChhRIHVy8kinOgugKLnx0koB31vkoLGgkerocVtKkw0UuF_nArDxI"
+    },
+    {
+      "id": "rsqE033KnpLW0kJ46hw5Pw",
+      "name": "Sr Full Stack Software Developer (C# Required), Fully Remote",
+      "company": {
+        "id": "mgQJofHohCx+Unqzl5PLE53C2EM=",
+        "name": "Centauri Health Solutions",
+        "logo": "https://www.ziprecruiter.com/svc/fotomat/public-nosensitive-ziprecruiter-logos/company/0182642e.png",
+        "url": "/c/Centauri-Health-Solutions/Jobs"
+      },
+      "location": {
+        "text": "Richmond, VA USA"
+      },
+      "type": "FULL_TIME",
+      "benefits": [
+        "medical",
+        "paid_time_off",
+        "retirement"
+      ],
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAKp1x2SpeYqY5xnLxwXzmAkZSW3jJPg8kaL1oZMlWxvQhoD0jFwkugsBKzuYes9jPD-MtAkTeyrpT3-8PaF7Tg0kYM2kpQ3WjqFy2Jn1CK6QqYfMr3LumlydIuKbyHAxlO4OrDdrvPWZ9uW4Sflf7-HLi1ReXUoudKxyApwaRdmCZtsKJzt9zARaQCKj5dro7J_sSFyFaA0W_BhaGP3SCAgB6hLhtgS7RvlPSEMV_mId2uKzHWgXN0q3W_CiF2EyRmOevh4ARr6wZLbb5b51MH04qYs9DfMyj0MOMdIVclS2_gIxQVmzTxwckA4ru9B-3od_vnoo7HI1_8"
+    },
+    {
+      "id": "O_12gd_M-UzEVL3OFiiOJQ",
+      "name": "C# Senior Developer - Remote",
+      "company": {
+        "id": "zr_missing_company_default",
+        "name": "Futran Tech Solutions Pvt.",
+        "url": "/c/Futran-Tech-Solutions-Pvt/Jobs"
+      },
+      "location": {
+        "text": "Remote (USA)",
+        "type": "REMOTE"
+      },
+      "type": "FULL_TIME",
+      "clickUrl": "https://www.ziprecruiter.com/k/l/AAK4vL4Nx5PIvlDr0aTRbxby_rE602MEm4yJEMrPjCEu6TDBKsfXVgl0xQp5RZxiKYu07NCMtXqF6TNLF7iP8CmE2X83FNjEnapAZDE_fQGZM5HremAYskFJaiTJbBWYBvkLqPxjGEwxLDscsCOpW7I4aHCiIh0tdyN3DFztm0gSvlywJdQJbOQpRBSyHmYZWyvyjM7xhMHBFYs2yXDCNVMOrL_JDKvJluTgxBqqIarwzUy3JIrLfHY95WEb21cphl8WgNFDnTPvezDNqcvRQ6yNB7oibHxXIzpO8qn5o0gAdm-9Y9gVS3xIvRYLkIzIZzsdocrU_p3ghAY"
+    }
+  ]
+}

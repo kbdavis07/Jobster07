@@ -1,0 +1,3 @@
+images:
+  api: api:latest
+  aspiredashboard: mcr.microsoft.com/dotnet/aspire-dashboard:8.0

@@ -34,11 +34,10 @@ public class GMailService(IConfiguration config) : IGMailService
 
             var clientSecrets = GoogleClientSecrets.FromStream(stream).Secrets;
 
-            var authResult = GoogleWebAuthorizationBroker.AuthorizeAsync(clientSecrets,new[] { GmailService.Scope.GmailReadonly },
-                "user",CancellationToken.None,new FileDataStore("token.json", true)).Result;
+            var authResult = GoogleWebAuthorizationBroker.AuthorizeAsync(clientSecrets, new[] { GmailService.Scope.GmailReadonly },
+                "user", CancellationToken.None, new FileDataStore("token.json", true)).Result;
 
             var RefreshToken = authResult.Token.RefreshToken;
-            report.Add("Credential file saved to: " + credPath);
 
             credential = new UserCredential(new GoogleAuthorizationCodeFlow(new GoogleAuthorizationCodeFlow.Initializer
             {
@@ -46,23 +45,38 @@ public class GMailService(IConfiguration config) : IGMailService
             }),
             "user",
             authResult.Token);
-           
+
         }
 
         var service = new GmailService(new BaseClientService.Initializer() { HttpClientInitializer = credential, ApplicationName = ApplicationName });
+
+        // UsersResource.MessagesResource.ListRequest request = service.Users.Messages.List("me");
+
+        var allMessages = new List<Message>(); 
+        string pageToken = null;
         
-        UsersResource.MessagesResource.ListRequest request = service.Users.Messages.List("me");
-
-        request.LabelIds = "Label_3128620828543033678";
-
-        IList<Message> messages = request.Execute().Messages;
-
-        report.Add("Messages:");
-
-
-        if (messages != null && messages.Count > 0)
+        do
         {
-            foreach (var messageItem in messages)
+            var request = service.Users.Messages.List("me");
+            request.PageToken = pageToken; request.MaxResults = 100;
+            request.LabelIds = "Label_3128620828543033678";
+
+            var response = request.Execute();
+
+            if (response.Messages != null) 
+            { 
+                allMessages.AddRange(response.Messages); 
+            }
+            
+            pageToken = response.NextPageToken; 
+
+        } 
+
+        while (!string.IsNullOrEmpty(pageToken));
+
+        if (allMessages != null && allMessages.Count > 0)
+        {
+            foreach (var messageItem in allMessages)
             {
                 var message = service.Users.Messages.Get("me", messageItem.Id).Execute();
 
@@ -87,11 +101,13 @@ public class GMailService(IConfiguration config) : IGMailService
 
                 var decodedBytes = Convert.FromBase64String(rawMessageData);
 
-                var email = MimeMessage.Load(new MemoryStream(decodedBytes));
+                var email = MimeMessage.Load(new MemoryStream(Convert.FromBase64String(rawMessageData)));
 
-                var emailData = JsonConvert.SerializeObject(message);
+                var emailStore = new { email.MessageId, email.Subject, email.To, email.From, email.Date, email.TextBody, email.HtmlBody, email.Headers, email.Attachments };
 
-                report.Add(emailData);
+                //var emailData = JsonConvert.SerializeObject(email);
+
+                report.Add(emailStore.Subject);
             }
         }
         else
